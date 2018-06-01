@@ -1,1 +1,1 @@
-alert("jfsdf")
+var answer = prompt("Are we there yet?");
