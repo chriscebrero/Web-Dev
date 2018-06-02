@@ -15,3 +15,11 @@ function isUniform(arr) {
 	}
 	return true;
 }
+
+function sumArray(arr) {
+	total = 0;
+	arr.forEach(function(element) {
+		total += element;
+	});
+	return total;
+}
