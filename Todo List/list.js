@@ -13,6 +13,7 @@ while(input !== "quit"){
 	// ask for new todos
 	var newTodo = prompt("Enter a new todo");
 	todos.push(newTodo);
+	console.log("Added Item");
 	} else if (input === "delete") {
 		//ask for index of todo to be deleted
 		var index = prompt("Enter index of todo to delete");
