@@ -22,3 +22,9 @@ function factorial(num) {
 	return result
 }
 
+//Replace "_" with "-"
+function kebabToSnake(str) {
+	var newString = str.replace("-","_");
+	return newString
+}
+
