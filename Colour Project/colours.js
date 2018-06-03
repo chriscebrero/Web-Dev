@@ -11,6 +11,21 @@ var squares = document.querySelectorAll(".square");
 var pickedColor = colors[3];
 var colorDisplay = document.getElementById("colorDisplay");
 
+colorDisplay.textContent = pickedColor;
+
 for(var i = 0; i < squares.length; i++) {
+	//add initial colors to square
 	squares[i].style.backgroundColor = colors[i];
+
+	//add clickListeners to squares
+	squares[i].addEventListener("click", function() {
+	//grab color of pickedSquare
+	var clickedColor = this.style.backgroundColor;
+	//compare color to pickedSquare
+	if(clickedColor === pickedColor){
+		alert("Correct");
+	} else {
+		alert("Wrong!");
+		}
+	});
 };
