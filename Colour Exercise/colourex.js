@@ -1,1 +1,2 @@
-colourex.js
+var body = document.querySelector("body")
+
