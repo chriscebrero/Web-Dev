@@ -4,6 +4,7 @@ var resetButton = document.getElementById("reset");
 var p1Display = document.querySelector("#p1Display");
 var p2Display = document.querySelector("#p2Display");
 var numInput = document.querySelector("input");
+var winningScoreDisplay = document.querySelector("p span");
 var p1Score = 0;
 var p2Score = 0;
 var gameOver = false;
@@ -43,5 +44,6 @@ resetButton.addEventListener("click", function() {
 });
 
 numInput.addEventListener("change", function() {
-	console.log("changed input!");
+	winningScoreDisplay.textContent = numInput.value;
+	winningScore = Number(numInput.value);
 });
