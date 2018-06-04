@@ -15,6 +15,16 @@ body {
 
 }
 
+span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 40px;
+	display: inline-block;
+}
+
 .fa-plus {
 	float: right;
 }
