@@ -24,7 +24,7 @@ body {
 h1 {
 	text-align: center;
 	color: black;
-	background: #98ff98;
+	background: #DDA0DD;
 	margin: 0;
 	font-weight: normal
 	text-transform: uppercase;
@@ -43,7 +43,7 @@ span {
 }
 
 .selected {
-	background: #98ff98;
+	background: #DDA0DD;
 	color: white;
 }
 
@@ -57,7 +57,7 @@ button {
 	text-transform: uppercase;
 	height: 100%;
 	font-weight: 700;
-	color: #98ff98;
+	color: #DDA0DD;
 	letter-spacing: 1px;
 	font-size: inherit;
 	transition: all 0.3s;
@@ -71,4 +71,8 @@ button:hover {
 #message {
 	display: inline-block;
 	width: 20%;
+}
+
+#container {
+	margin: 20px auto;
 }
