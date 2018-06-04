@@ -22,3 +22,9 @@ h1 {
 span {
 	color: black;
 }
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
