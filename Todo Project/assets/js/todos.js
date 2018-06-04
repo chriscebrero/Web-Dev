@@ -1,11 +1,11 @@
 // Check off specific Todos by clicking
-$("li").click(function() {
+$("ul").on("click", "li", function() {
 	$(this).toggleClass("completed");
 
 });
 
 //Click on X to delete Todo
-$("span").click(function (event) {
+$("ul").on("click", "span", function (event) {
 	$(this).parent().fadeOut(500, function() {
 		$(this).remove();
 	});
